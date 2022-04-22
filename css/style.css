@@ -1,1 +1,36 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
+.container {
+    max-width: 1648px;
+}
+
+header .top-bar {
+    /* debug */
+    border: 4px solid #000;
+    background: #567885;
+    width: 100%;
+    height: 88px;
+}
+
+section .row {
+    /* debug */
+    margin: 0 auto;
+    background: #943;
+    border: 4px solid #555;
+    width: 100%;
+    height: 60vh;
+}
+
+main section .row {
+    /* debug */
+    background: #234562;
+    width: 100%;
+}
+
+footer {
+    /* debug */
+    background: #224142;
+    border: 4px solid grey;
+    width: 100%;
+    height: 40vh;
+}
