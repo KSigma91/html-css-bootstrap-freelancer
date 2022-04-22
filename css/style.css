@@ -1,18 +1,42 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* impostazioni generali */
 .container {
     max-width: 1648px;
 }
 
-header .top-bar {
+li {
+    list-style-type: none;
+}
+
+
+/* impostazioni header */
+header .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     /* debug */
+    margin: 0 auto;
     border: 4px solid #000;
     background: #567885;
     width: 100%;
     height: 88px;
 }
 
+.row .col-4 nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+
+/* jumbotron */
 section .row {
+    display: flex;
+    justify-content: center;
     /* debug */
     margin: 0 auto;
     background: #943;
@@ -21,11 +45,45 @@ section .row {
     height: 60vh;
 }
 
+.row .col-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background: lime;
+}
+
+
+
+
+/* contenuto del sito */
+
+/* portfolio */
 main section .row {
+    display: flex;
+    justify-content: center;
     /* debug */
     background: #234562;
     width: 100%;
 }
+
+.row .col-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background: orange;
+}
+
+/* about */
+
+
+
+
+
+
+
 
 footer {
     /* debug */
