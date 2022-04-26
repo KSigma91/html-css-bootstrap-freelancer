@@ -9,6 +9,7 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 img {
@@ -78,15 +79,65 @@ main #port {
 }
 
 
-
 /* about */
 #about .row {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    background: green;
+    background: #1ABC9C;
+    text-align: center;
+    color: white;
 }
+
+#about .row h4 {
+    margin-top: 40px;
+}
+
+#about .row p {
+    padding: 10px;
+    text-align: left;
+}
+
+#about .row p:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+#about .row a {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+#about .row a i {
+    margin-bottom: 40px;
+}
+
+
+/* form */
+#contact .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contact .row h4 {
+    margin-top: 40px;
+}
+
+#contact .row .mb-3 {
+    text-align: left;
+    font-weight: 500;
+}
+
+#contact .row .btn.btn-primary {
+    background: #1ABC9C;
+    border: solid #1ABC9C;
+    color: white;
+    margin-bottom: 30px;
+}
+
 
 
 
