@@ -32,6 +32,7 @@ img {
 
 #top-bar .row span {
     color: white;
+    font-size: 19px;
     font-weight: 500;
 }
 
@@ -43,6 +44,13 @@ img {
     border-radius: 5px;
     padding: 10px;
     color: #cecece;
+}
+
+#top-bar .row nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
 }
 
 
@@ -58,6 +66,14 @@ img {
     text-align: center;
 }
 
+#jumbotron .row img {
+    margin: 20px;
+}
+
+#jumbotron .row p {
+    margin-bottom: 30px;
+}
+
 
 
 /* contenuto del sito */
@@ -70,12 +86,13 @@ main #port {
 
 /* portfolio */
 #port .row h5 {
+    margin-top: 30px;
     font-weight: 600;
 }
 
 #port .row img {
     border-radius: 8px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -87,6 +104,7 @@ main #port {
     background: #1ABC9C;
     text-align: center;
     color: white;
+    margin-top: 30px;
 }
 
 #about .row h4 {
@@ -99,7 +117,7 @@ main #port {
 }
 
 #about .row p:nth-child(2) {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 #about .row a {
@@ -109,7 +127,7 @@ main #port {
 }
 
 #about .row a i {
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 
@@ -178,12 +196,12 @@ main #port {
 
 
 /* copyright */
-#bottom #copyright {
+#bottom .row #copyright {
     padding: 30px;
     background: #2c3e50;
 }
 
-#bottom #copyright span {
+#bottom .row #copyright span {
     font-size: 12px;
 }
 
@@ -191,7 +209,9 @@ main #port {
 
 
 /* media query */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) {
     
-    
+    /* #top-bar .row .col-sm-2 {
+        display: none;
+    } */
 }
