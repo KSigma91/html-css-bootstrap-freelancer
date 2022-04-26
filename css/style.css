@@ -15,6 +15,10 @@ img {
     max-width: 100%;
 }
 
+.bi.bi-star-fill {
+    font-size: 25px;
+}
+
 
 /* impostazioni header */
 #top-bar .row {
@@ -46,41 +50,37 @@ img {
 /* jumbotron */
 #jumbotron .row {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     background: #1ABC9C;
     color: white;
+    text-align: center;
 }
-
-#jumbotron .row img {
-    width: 40%;
-}
-
 
 
 
 /* contenuto del sito */
-main {
+main #port {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 /* portfolio */
-#port .row {
-    display: flex;
-    justify-content: space-around;
+#port .row h5 {
+    font-weight: 600;
 }
 
 #port .row img {
     border-radius: 8px;
-    width: 90%;
+    margin-bottom: 30px;
 }
 
 
 
 /* about */
-#about .row .col-sm-9 {
+#about .row {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,21 +95,13 @@ main {
 
 
 /* informazioni */
-footer .row {
+#bottom .row {
     /* debug */
     margin: 0 auto;
     background: #224142;
     border: 4px solid grey;
     width: 100%;
     height: 40vh;
-}
-
-.row .col-sm-12 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* debug */
-    background: red;
 }
 
 
