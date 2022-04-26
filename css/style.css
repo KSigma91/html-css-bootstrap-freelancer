@@ -47,7 +47,7 @@ img {
 #jumbotron .row {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
     background: #1ABC9C;
     color: white;
 }
