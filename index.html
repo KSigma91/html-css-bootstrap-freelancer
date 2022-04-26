@@ -6,71 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap</title>
 </head>
 <body>
     
-    <!-- versione smartphone -->
     <div class="container">
 
-        <header> 
+        <header id="top-bar"> 
+
             <div class="row">
                 <!-- titolo -->
-                <div class="col-4">
-                    <h3>START BOOTSTRAP</h3>
+                <div class="col-sm-4 col-md-5">
+                    <span>START BOOTSTRAP</span>                       
                 </div>
                 <!-- menu di navigazione -->
-                <div class="col-4">
-                    <nav>
-                        <ul>
-                            <li>
-                                PORTFOLIO
-                            </li>
-                            <li>
-                                ABOUT
-                            </li>
-                            <li>
-                                CONTACT
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <i class="bi bi-list"></i>
+                    </a>             
                 </div>
             </div>
+            
         </header>
 
 
         <!-- jumbotron -->
-        <section>
+        <section id="jumbotron">
+
             <!-- start bootstrap -->
             <div class="row">
-                <div class="col-6">col 6</div>
+                <div class="col-sm-12">
+                    <!-- logo -->
+                    <img src="img/avatar.svg" alt="avatar_img">
+                    <!-- testo -->
+                    <h1>START BOOTSTRAP</h1>
+                    <span>
+                        <i class="bi bi-star-fill"></i>
+                    </span>
+                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                </div>
             </div>
+
         </section>
 
 
         <!-- contenuto del sito -->
         <main>
 
-            <!-- portfolio -->
-            <section>
+        <!-- portfolio -->
+            <section id="port">
                 <div class="row">
-                    <div class="col-9">col 9</div>
+                    <!-- titolo -->
+                    <div class="col-sm-12">
+                        <h3>PORTFOLIO</h3>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/cabin.png" alt="cabin_img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/cake.png" alt="cake_img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/circus.png" alt="circus_img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/game.png" alt="game_img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/safe.png" alt="safe_img">
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/submarine.png" alt="submarine_img">
+                    </div>
                 </div>
             </section>
 
             <!-- about -->
-            <section>
+            <section id="about">
                 <div class="row">
-                    <div class="col-7">col 7 col 7</div>
+                    <div class="col-sm-9">col 9 col 9</div>
                 </div>
             </section>
 
             <!-- form -->
-            <section>
+            <section id="contact">
                 <div class="row">
-                    <div class="col-7">col 7 col 7</div>
+                    <div class="col-sm-9">col 9 col 9</div>
                 </div>
             </section>
 
@@ -80,7 +105,11 @@
         <!-- informazioni -->
         <footer>
             <div class="row">
-                <div class="col-8">col 8</div>
+                <div class="col-sm-12 col-md-4">col</div>
+                <div class="col-sm-12 col-md-4">col</div>
+                <div class="col-sm-12 col-md-4">col</div>
+                <!-- copyright -->
+                <div class="col-sm-12">col 12</div>
             </div>
         </footer>
 

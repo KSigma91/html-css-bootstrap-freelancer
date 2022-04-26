@@ -1,83 +1,86 @@
-@import 'bootstrap/dist/css/bootstrap.min.css';
-
 /* impostazioni generali */
 .container {
-    max-width: 1648px;
+    max-width: 100%;
 }
 
 li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 
 /* impostazioni header */
-header .row {
+#top-bar .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    /* debug */
-    margin: 0 auto;
-    border: 4px solid #000;
-    background: #567885;
-    width: 100%;
+    background: #2C3E50;  
     height: 88px;
 }
 
-.row .col-4 nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#top-bar .row span {
+    color: white;
+    font-weight: 500;
 }
 
+/* menu di navigazione */
+#top-bar .row a > i {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    padding: 10px;
+    color: #cecece;
+}
 
 
 
 
 /* jumbotron */
-section .row {
-    display: flex;
-    justify-content: center;
-    /* debug */
-    margin: 0 auto;
-    background: #943;
-    border: 4px solid #555;
-    width: 100%;
-    height: 60vh;
-}
-
-.row .col-6 {
+#jumbotron .row {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* debug */
-    background: lime;
+    justify-content: space-around;
+    background: #1ABC9C;
+    color: white;
+}
+
+#jumbotron .row img {
+    width: 40%;
 }
 
 
 
 
 /* contenuto del sito */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* portfolio */
-main section .row {
+#port .row {
     display: flex;
-    justify-content: center;
-    /* debug */
-    background: #234562;
-    width: 100%;
+    justify-content: space-around;
 }
 
-.row .col-9 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* debug */
-    background: orange;
+#port .row img {
+    border-radius: 8px;
+    width: 90%;
 }
+
+
 
 /* about */
-.row .col-7 {
+#about .row .col-sm-9 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +96,6 @@ main section .row {
 
 /* informazioni */
 footer .row {
-    justify-content: center;
     /* debug */
     margin: 0 auto;
     background: #224142;
@@ -102,10 +104,19 @@ footer .row {
     height: 40vh;
 }
 
-.row .col-8 {
+.row .col-sm-12 {
     display: flex;
     justify-content: center;
     align-items: center;
     /* debug */
     background: red;
+}
+
+
+
+
+/* media query */
+@media screen and (max-width: 768px) {
+    
+    
 }
